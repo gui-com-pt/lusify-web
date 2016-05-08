@@ -1,0 +1,8 @@
+@import "boot";
+/**
+ * SASS Application
+ */
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "element/navbar";
+@import "../front/service/service.scss";
+@import "../front/consultant/consultant.scss";

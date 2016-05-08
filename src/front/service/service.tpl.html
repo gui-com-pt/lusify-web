@@ -1,0 +1,9 @@
+<div class="container">
+	<div class="services-list">
+		<div class="services-list__item" ng-repeat="service in ctrl.services">
+			<h2 class="services-list__item-head" ng-bind="service.name"></h2>
+			<img class="services-list__item-img" ng-src="{{service.imageUrl}}" />
+			<p ng-bind="service.description"></p>
+		</div>
+	</div>
+</div>

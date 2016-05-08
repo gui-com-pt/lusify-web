@@ -1,0 +1,23 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-9">
+			<h2>Bem vindo</h2>
+		</div>
+		<div class="col-sm-3" login ng-if="!$rootScope.account.authenticated" class="row">
+			<form class="">
+				<div class="form-group">
+					<label for="inputLogin">Id</label>
+					<input type="text" class="form-control" id="inputLogin" placeholder="Id" ng-model="id" />
+				</div>
+				<div class="form-group">
+					<label for="inputPassword">Password</label>
+					<input type="password" class="form-control" id="inputPassword" placeholder="Password" ng-model="password" />
+				</div>
+				<button class="btn btn-primary" type="button" ng-click="login(id, password)">Login</button>
+			</form>
+		</div>
+	</div>
+	<div class="container" ng-if="$rootScope.account.authenticated">
+	<p>Não são guardados registos de pedidos, transacções ou suportes.</p>
+	</div>
+</div>

@@ -1,0 +1,13 @@
+{
+  "name": "lusify",
+  "dependencies": {
+    "emailjs-imap-client": "^2.0.2",
+    "emailjs-smtp-client": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

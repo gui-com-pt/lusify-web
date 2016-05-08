@@ -1,0 +1,16 @@
+.services-list {
+	@extend .row;
+
+	> .services-list__item {
+		@extend .col-sm-6;
+		@extend .col-md-3;
+	}
+
+	.hservices-list__head {
+
+	}
+
+	> .services-list__img {
+
+	}
+}

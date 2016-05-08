@@ -1,0 +1,7 @@
+.navbar-brand {
+	padding: 4px 15px;
+
+	> img {
+		height: $navbar-height - 8px;
+	}
+}

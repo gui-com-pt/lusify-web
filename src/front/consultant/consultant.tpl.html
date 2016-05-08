@@ -1,0 +1,9 @@
+<div class="container">
+	<div class="consultant-list">
+		<div class="consultant-list__item" ng-repeat="consultant in ctrl.consultants">
+			<h2 class="consultant-list__item-head" ng-bind="consultant.name"></h2>
+			<img class="consultant-list__item-img" ng-src="{{consultant.imageUrl}}" />
+			<p ng-bind="consultant.description"></p>
+		</div>
+	</div>
+</div>

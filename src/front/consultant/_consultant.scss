@@ -1,0 +1,16 @@
+.consultant-list {
+	@extend .row;
+
+	> .consultant-list__item {
+		@extend .col-sm-6;
+		@extend .col-md-3;
+	}
+
+	.consultant-list__head {
+
+	}
+
+	> .consultant-list__img {
+
+	}
+}
